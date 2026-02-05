@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
+
 :root {
-  --sn-stylekit-sans-serif-font: initial;
+  --sn-stylekit-sans-serif-font: unset !important; /* often behaves like inherit for custom props */
 }
 
+
+
 html, body, #root, .app {
-  font-family: "Lexend", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-family: "Lexend", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif !important;
 }
