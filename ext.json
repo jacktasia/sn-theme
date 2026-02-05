@@ -1,0 +1,9 @@
+{
+  "identifier": "com.github.jacktasia.jack-theme",
+  "name": "Jack Theme",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "Just applies Lexend as the sans font across the app.",
+  "url": "https://jacktasia.github.io/sn-theme/theme.css"
+}
